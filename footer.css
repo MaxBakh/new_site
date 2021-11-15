@@ -1,0 +1,194 @@
+@charset "UTF-8";
+.final__blog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 240px;
+}
+
+.final__blog__img {
+  background: url("images/girl.png") no-repeat;
+  background-size: cover;
+  height: 700px;
+  width: 665px;
+}
+
+.final__blog__desc {
+  height: 700px;
+  width: 997px;
+  background: #CCF0E6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.final__blog__desc_achive__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin-left: 135px;
+}
+
+.final__blog__desc_achive__list__item {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 105px;
+  color: #58A9A5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 30%;
+}
+
+.final__blog__desc_achive__list__item__span {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 45px;
+  letter-spacing: 0em;
+}
+
+.final__blog__desc_achive__list__item #dif {
+  width: 139px;
+}
+
+.final__blog__desc__text {
+  width: 752px;
+  height: 228px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 37px;
+  color: #486958;
+  position: relative;
+  margin-left: 135px;
+}
+
+.final__blog__desc__text::before {
+  content: ' “ ';
+  font-family: 'Port Lligat Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 300px;
+  line-height: 321px;
+  color: #FFFFFF;
+  position: absolute;
+  position: absolute;
+  top: -42%;
+  left: -8%;
+}
+
+.final__blog__desc__text__span {
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 38px;
+  color: #58A9A5;
+}
+
+.contact_us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 105px;
+  margin-bottom: 334px;
+}
+
+.contact_us__text {
+  width: 398px;
+}
+
+.contact_us__text__heading {
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 105px;
+  text-align: center;
+  color: #1C2323;
+}
+
+.contact_us__text__paragraph {
+  font-weight: 500;
+  line-height: 37px;
+  font-size: 25px;
+  color: #486958;
+}
+
+.contact_us__text__line {
+  width: 138px;
+  float: left;
+  border: 5px solid #58A9A5;
+  border-left: none;
+  border-right: none;
+  padding: 15px;
+}
+
+.contact_us__form {
+  width: 1109px;
+  height: 450px;
+  border: 1px solid #486958;
+}
+
+.contact_us__form__input {
+  border: none;
+  padding: 25px 0;
+  margin: 20px 54px;
+  width: 1000px;
+  border-bottom: 1px solid #000;
+}
+
+.contact_us__form__input::-webkit-input-placeholder {
+  font-weight: 500;
+  line-height: 37px;
+  font-size: 25px;
+  color: #486958;
+}
+
+.contact_us__form__input:-ms-input-placeholder {
+  font-weight: 500;
+  line-height: 37px;
+  font-size: 25px;
+  color: #486958;
+}
+
+.contact_us__form__input::-ms-input-placeholder {
+  font-weight: 500;
+  line-height: 37px;
+  font-size: 25px;
+  color: #486958;
+}
+
+.contact_us__form__input::placeholder {
+  font-weight: 500;
+  line-height: 37px;
+  font-size: 25px;
+  color: #486958;
+}
+
+.contact_us__form .desc {
+  resize: none;
+  border-bottom: none;
+}
+
+.contact_us__form__btn {
+  background: #58A9A5;
+  border-radius: 20px 20px 20px 0px;
+  font-weight: bold;
+  line-height: 37px;
+  font-size: 25px;
+  color: #FFFFFF;
+  border: none;
+  padding: 21px 73px;
+  float: right;
+  margin-right: 54px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,800;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Port+Lligat+Sans&display=swap');
+@import 'promo.scss';
+@import 'footer.scss';
+
+@mixin fontStyle {
+font-family: "Poppins", sans-serif;
+font-style: normal;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr min-content;
+    @include fontStyle;
+  }
+
+.wrapper{
+    width: 100%;
+    max-width: 1640px; 
+    padding: 0 142px 0 162px;
+    margin: 0 auto;
+
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__logo{
+        margin-right: 309px;
+        &__img{
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            &__name{
+                font-weight: 800;
+                font-size: 35px;
+                line-height: 52px;
+                color: #58A9A5;
+            }
+        }
+    }
+
+
+    &__nav{
+        &__list{
+            display: flex;
+            list-style: none;
+            gap: 85px;
+            &__item{
+                &__link{
+                    font-size: 25px;
+                    line-height: 37px;
+                    color: #404242;
+                }
+
+                &__link[aria-current]{
+                    color: #58A9A5;
+                    position: relative;
+                    &::after{
+                        content: ' ';
+                        height: 6px;
+                        width: 48px;
+                        background: #FEC62D;
+                        position: absolute;
+                        border-radius: 21px;
+                        bottom: -8%;
+                        left: 15%;
+                    }
+                }
+            }
+        }
+    }
+
+
+    &__button{
+        margin-left: 220px;
+        &__signIn{
+            padding: 21px 70px;
+            color: white;
+            background: #58A9A5;
+            border-radius: 15px;
+            border: none;
+            cursor: pointer;
+            font-weight: 500;
+            font-size: 25px;
+            line-height: 37px;
+        }
+    }
+}

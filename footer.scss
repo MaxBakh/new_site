@@ -1,0 +1,170 @@
+.final__blog{
+    display: flex;
+    margin-bottom: 240px;
+
+    &__img{
+        background: url('images/girl.png') no-repeat;
+        background-size: cover;
+        height: 700px;
+        width: 665px;
+    }
+
+    &__desc{
+        height: 700px;
+        width: 997px;
+        background: #CCF0E6;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        &_achive{
+            &__list{
+                display: flex;
+                list-style: none;
+                margin-left: 135px;
+                &__item{
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 70px;
+                    line-height: 105px;
+                    color: #58A9A5;
+                    display: flex;
+                    flex-wrap: wrap;
+                    width: 30%;
+                    &__span{
+                        
+                    font-size: 30px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 45px;
+                    letter-spacing: 0em;
+
+                    }
+
+                    & #dif{
+                        width: 139px;
+                    }
+                }
+            }
+        }
+
+        &__text{
+            width: 752px;
+            height: 228px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 25px;
+            line-height: 37px;
+           color: #486958;
+            position: relative;
+            margin-left: 135px;
+           &::before{
+            content: ' “ ';
+            font-family: 'Port Lligat Sans', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 300px;
+            line-height: 321px;
+            color: #FFFFFF;
+            position: absolute;
+            position: absolute;
+            top: -42%;
+            left: -8%;
+        }
+
+           &__span{
+            
+            font-size: 25px;
+            font-style: italic;
+            font-weight: 500;
+            line-height: 38px;
+            color: #58A9A5;
+
+           }
+
+        }
+
+      
+    }
+}
+
+
+.contact_us{
+    display: flex;
+    gap: 105px;
+    margin-bottom: 334px;
+   
+    &__text{
+        width: 398px;
+
+        &__heading{
+            font-weight: 800;
+            font-size: 70px;
+            line-height: 105px;
+            text-align: center;          
+            color: #1C2323;
+        }
+
+        &__paragraph{
+            font-weight: 500;
+            line-height: 37px;
+            font-size: 25px;
+            color: #486958;
+        }
+
+        &__line{
+            width: 138px;
+            float: left;
+            border: 5px solid #58A9A5;
+            border-left: none;
+            border-right: none;
+            padding: 15px;
+            }
+        }
+    
+
+    &__form{
+        width: 1109px;
+        height: 450px;
+        border: 1px solid #486958;
+        
+        &__input{
+            border: none;
+            padding: 25px 0;
+            margin: 20px 54px;
+            width: 1000px;
+            border-bottom: 1px solid #000;
+            &::placeholder{
+                font-weight: 500;
+                line-height: 37px;
+                font-size: 25px;
+                color: #486958;
+            }
+        
+
+
+        }
+
+        & .desc{
+            resize: none;
+            border-bottom: none;
+        }
+
+        &__btn{
+            background: #58A9A5;
+            border-radius: 20px 20px 20px 0px;
+            font-weight: bold;
+            line-height: 37px;
+            font-size: 25px;
+            color: #FFFFFF;
+            border: none;
+            padding: 21px 73px;
+            float: right;
+            margin-right: 54px;
+            cursor: pointer;
+            }
+        }
+
+    
+
+}
